@@ -1,0 +1,34 @@
+# Environment variables and local secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Local data and caches
+node_modules/
+.vite/
+.cache/
+.next/
+out/
+dist/
+coverage/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python virtual environments (if used)
+.venv/
+venv/
+__pycache__/
+
+# Project-specific local files
+*.local
+*.sqlite
+*.db
